@@ -1,0 +1,65 @@
+package calculatorTesting;
+
+public class Calculator 
+{
+	int num1,num2,res,rem;
+	
+	public int getNum1()
+	{
+		return num1;
+	}
+	
+	public void setNum1(int num1)
+	{
+		this.num1=num1;
+	}
+	
+	public int getNum2()
+	{
+		return num2;
+	}
+	
+	public void setNum2(int num2)
+	{
+		this.num2=num2;
+	}
+	
+	public int getRes() 
+	{
+		return res;
+	}
+	
+	int add() 
+	{
+		res = num1 + num2;
+		return res;
+	}
+	
+	int subtract() 
+	{
+		res = num1 - num2;
+		return res;
+	}
+	
+	int prod() 
+	{
+		res = num1 * num2;
+		return res;
+	}
+	
+	int divide() 
+	{
+		res = num1 / num2;
+		rem = num1 % num2;
+		return res;
+	}
+	
+	public int getrem() 
+	{
+		return rem;
+	}
+
+	
+	
+	
+}
